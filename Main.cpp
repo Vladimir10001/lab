@@ -15,15 +15,15 @@ int main() {
     cout << calc.calculate() << endl;*/
 
     // ascii check
-    string text;
-    cout << "Input text: "; getline(cin, text);
-    int k = 3;
+    string teqst;
+    cout << "Input text: "; getline(cin, teqst);
+    int a = 3;
 
     ASCIIEncoder encoder;
-    string encoded = encoder.encode(text, k);
+    string encoded = encoder.encode(teqst, a);
     cout << "Encoded: " << encoded << endl;
 
-    string decoded = encoder.decode(encoded, k);
+    string decoded = encoder.decode(encoded, a);
     cout << "Decoded: " << decoded << endl;
 
     //shablon check
